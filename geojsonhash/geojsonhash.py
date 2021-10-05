@@ -1,7 +1,7 @@
 import pygeohash as pgh
 from operator import itemgetter
 
-def get_geojson_id(geojson):
+def get_geojson_id(geojson: dict) -> str:
     # TODO: Validate geojson
     representative_points = []
     polygon_ids = []
