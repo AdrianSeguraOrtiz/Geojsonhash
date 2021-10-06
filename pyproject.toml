@@ -1,16 +1,48 @@
 [tool.poetry]
 name = "geojsonhash"
 version = "0.1.0"
-description = "Get a unique identifier for a given geojson"
-authors = ["Adrián Segura"]
-license = "MIT"
+readme = "README.md"
+description = "README"
+homepage = "https://github.com/AdrianSeguraOrtiz/geojsonhash/"
+repository = "https://github.com/AdrianSeguraOrtiz/geojsonhash/"
+authors = ["Adrián Segura Ortiz <adrianseor.99@gmail.com"]
+classifiers=[
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python",
+    "Typing :: Typed",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+]
+include = [
+    "LICENSE"
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 pygeohash = ">=1.2.0"
-pytest = ">=6.2.5"
 
 [tool.poetry.dev-dependencies]
+black = ">=21.9b0"
+isort = ">=5.9.3"
+pytest = ">=6.2.5"
+
+[tool.black]
+line-length = 120
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
