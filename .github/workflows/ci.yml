@@ -1,5 +1,4 @@
 name: CI
-uses: benc-uk/workflow-dispatch@v1
 
 on:
   workflow_dispatch:
