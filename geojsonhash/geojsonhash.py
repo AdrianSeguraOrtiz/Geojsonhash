@@ -11,7 +11,6 @@ def get_geojson_id(geojson: dict) -> str:
         geometry = element["geometry"]
 
         if geometry["type"] == "Polygon":
-            # TODO: Cuidado porque creo que existen geojsons que ponen todos los polígonos seguidos dentro del mismo feature (se necesita otro bucle y quitar [0])
             points = geometry["coordinates"][0]
             points.pop()
             first_point = min(points,key=itemgetter(0,1))
