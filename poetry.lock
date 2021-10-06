@@ -1,0 +1,17 @@
+[[package]]
+name = "pygeohash"
+version = "1.2.0"
+description = "Python module for interacting with geohashes"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.9"
+content-hash = "ec1e42bc2190589dc8db64849a4b896e8c812c7e4b9d9f645e02b5f1b41332d9"
+
+[metadata.files]
+pygeohash = [
+    {file = "pygeohash-1.2.0.tar.gz", hash = "sha256:750e51643e743eabd065a84fc8c1912c5843b648143137919e4a9776366d921e"},
+]
