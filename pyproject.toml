@@ -27,6 +27,7 @@ pygeohash = ">=1.2.0"
 black = ">=21.9b0"
 isort = ">=5.9.3"
 pytest = ">=6.2.5"
+mypy = "^0.910"
 
 [tool.black]
 line-length = 120
