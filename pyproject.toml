@@ -5,7 +5,7 @@ readme = "README.md"
 description = "README"
 homepage = "https://github.com/AdrianSeguraOrtiz/geojsonhash/"
 repository = "https://github.com/AdrianSeguraOrtiz/geojsonhash/"
-authors = ["Adrián Segura Ortiz <adrianseor.99@gmail.com"]
+authors = ["Adrián Segura Ortiz <adrianseor.99@gmail.com>"]
 classifiers=[
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3.9",
