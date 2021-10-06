@@ -2,9 +2,9 @@
 
 ![CI](https://github.com/AdrianSeguraOrtiz/geojsonhash/actions/workflows/ci.yml/badge.svg)
 ![Release](https://github.com/AdrianSeguraOrtiz/geojsonhash/actions/workflows/release.yml/badge.svg)
+![Pypi](https://img.shields.io/pypi/v/geojsonhash)
+![License](https://img.shields.io/apm/l/geojsonhash)
 <img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
-https://img.shields.io/pypi/v/geojsonhash
-https://img.shields.io/apm/l/geojsonhash
 
 This package is responsible for generating identifiers for geojson objects. To do so, it makes use of the pygeohash library in charge of generating the identifiers of the different points contained in the geojson.
 
