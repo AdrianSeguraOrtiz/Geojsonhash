@@ -40,5 +40,6 @@ print(geojson_id)
 To run it through console we can do:
 
 ```bash
+$ cd examples
 $ python example.py
 ```
