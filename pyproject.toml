@@ -8,6 +8,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.9"
 pygeohash = ">=1.2.0"
+pytest = ">=6.2.5"
 
 [tool.poetry.dev-dependencies]
 
